@@ -28,6 +28,7 @@ module.exports = (req, res) => {
         + `<width>${dimensions.width}</width>`
         + `<height>${dimensions.height}</height>`
         + `<resolution>72</resolution>`
+        + `<remoteURL>${path}${name}</remoteURL>`
         + `</metaData>`
         + `</fileInfo>`
         + `</item>`;
