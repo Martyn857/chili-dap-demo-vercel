@@ -23,7 +23,7 @@ module.exports = (req, res) => {
     const dimensions = sizeOf(image);
     const xml = ``
         +`<item name="${name}.jpg">`
-        + `<fileInfo remoteURL="${path}${name}" resolution="72" width="${dimensions.width}" height="${dimensions.height}">`
+        + `<fileInfo remoteURL="https://chili-dap-demo.vercel.app/api/image/data?path=${path}&name=${name}" resolution="72" width="${dimensions.width}" height="${dimensions.height}">`
         + `<metaData>`
         + `<width>${dimensions.width}</width>`
         + `<height>${dimensions.height}</height>`
