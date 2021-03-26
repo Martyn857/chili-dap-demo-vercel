@@ -25,7 +25,6 @@ module.exports = (req, res) => {
         +`<item name="${name}.jpg">`
         + `<fileInfo resolution="72" width="${dimensions.width}" height="${dimensions.height}">`
         + `<metaData>`
-        + `<remoteURL>https://chili-dap-demo.vercel.app/api/image/fileinfo?path=oil&name=${name}"</remoteURL>`
         + `<width>${dimensions.width}</width>`
         + `<height>${dimensions.height}</height>`
         + `<resolution>72</resolution>`
