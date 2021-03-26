@@ -26,7 +26,7 @@ module.exports = (req, res) => {
         + `<fileInfo resolution="72" width="${dimensions.width}" height="${dimensions.height}">`
         + `<metaData>`
         + `<width>${dimensions.width}</width>`
-        + `<height>${dimensions.width}</height>`
+        + `<height>${dimensions.height}</height>`
         + `<resolution>72</resolution>`
         + `</metaData>`
         + `</fileInfo>`
